@@ -1,4 +1,4 @@
-body{
+body{body{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -10,7 +10,7 @@ div{
     flex-direction: column;
     margin: 15px;;
     width: 15%;
-    height: 100px;
+    height: 150px;
     align-items:center;
     justify-content: space-around;
     border: solid gray;
@@ -18,6 +18,22 @@ div{
 .longitud{
     grid-row-start: 1;
     grid-column-start: 2;
+}
+.masa{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.Energia{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.velocidad{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+*{
+    font-family: roboto;
+}
 }
 .masa{
     grid-row-start: 2;
